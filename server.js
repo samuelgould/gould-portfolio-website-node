@@ -11,8 +11,6 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  console.log('request made!');
-  console.log(bodyResult);
   res.json(bodyResult);
 });
 
@@ -39,7 +37,6 @@ function closeServer() {
     server.close(err => {
       if (err) {
         reject(err);
-        // so we don't also call `resolve()`
         return;
       }
       resolve();
@@ -49,6 +46,4 @@ function closeServer() {
 
 if (require.main === module) {
   runServer().catch(err => console.error(err));
-} 
-
-module.exports = { app };
+}
