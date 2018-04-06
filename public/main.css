@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 0 50px 0;
+    background-color: #E7E6E1;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    top: 0px;
+}
+
+.nav {
+    margin: 10px;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #537791;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #384956;
+    font-weight: bolder;
+}
+
+.sub-heading {
+    font-size: 24px;
+}
+
+.title {
+    font-weight: bold;
+    color: #537791;
+}
+
+img {
+    margin: 25px 0px;
+    width: 90%;
+    border: 1px solid #C1C0B9;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #C1C0B9;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.text-block {
+    margin: auto;
+}
+
+p {
+    margin: 0px 15px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: left;
+    color: #384956;
+}
+
+h2 {
+    color: #384956;
+    text-align: center;
+    font-size: 36px;
+}
+
+h3 {
+    color: #384956;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    transition: color .5s ease;
+}
+
+.snapshot-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-snapshot-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.portfolio-snapshot {
+    margin: 25px 0px;
+    width: 90%;
+    height: 90%;
+    border: 1px solid #C1C0B9;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #C1C0B9;
+}
+
+.more-info-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin: 10px auto 25px auto;
+}
+
+.about-image-container {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.email-address {
+    color: #537791;
+    transition: color .5s ease;
+}
+
+.email-address:hover {
+    color: #384956;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 24px;
+    color: #537791;
+    font-weight: bold;
+    transition: color .5s ease;
+}
+
+.links:hover {
+    color: #384956;
+    font-weight: bolder;
+}
+
+.divider {
+    font-size: 24px;
+    color: #537791;
+    font-weight: bold;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 925px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .background {
+        height: 700px;
+        width: 1200px;
+        background: url('./images/sam-lake-louise.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-mask-image: -webkit-linear-gradient(top, rgba(247,246,231,1), rgba(247,246,231,0));
+    }
+
+    .homepage {
+        position: relative;
+        top: -700px;
+    }
+
+    .title {
+        transition: color .5s ease;
+    }
+
+    .title:hover {
+        color: #384956;
+        font-weight: bolder;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .vertical-snapshot-container {
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .text-block {
+        width: 80%;
+    }
+
+    .homepage-text {
+        position: absolute;
+        top: 25px;
+        left: 55px;
+        width: 40%;
+    }
+
+    .titles-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+    }
+
+    .nav {
+        position: relative;
+        top: -700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section {
+        position: relative;
+    }
+
+    .portfolio-content {
+        margin: 25 25 0 25;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .portfolio-text {
+        width: 45%;
+    }
+
+    .congress {
+        margin-left: 25px;
+    }
+
+    .congress-container {
+        flex-direction: row-reverse;
+    }
+
+    .more-info-container {
+        width: 25%;
+        margin-top: 0px;
+    }
+
+    .about-image-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .titles-container {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .background {
+        height: 933px;
+        width: 1600px;
+        background: url('./images/sam-lake-louise.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-mask-image: -webkit-linear-gradient(top, rgba(247,246,231,1), rgba(247,246,231,0));
+    }
+
+    .nav {
+        top: -933px;
+        margin: 20px;
+    }
+
+    .homepage {
+        top: -875px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
