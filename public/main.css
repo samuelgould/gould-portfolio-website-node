@@ -64,11 +64,7 @@ a:focus {
 }
 
 .personal-photo {
-    margin: 25px 0px;
-    width: 90%;
-    border: 1px solid #C1C0B9;
-    border-radius: 8px;
-    box-shadow: 1px 1px #C1C0B9;
+    display: none;
 }
 
 .homepage {
@@ -137,6 +133,7 @@ h3 {
 .info-container {
     margin: 50px auto;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
     width: 90%;
@@ -144,7 +141,6 @@ h3 {
     padding: 10px 20px;
     background: #fff;
     margin: 50px auto;
-    padding: 20px;
     border-radius: 8px;
     border: 1px solid #C1C0B9;
     box-shadow: 5px 5px #C1C0B9;
@@ -251,9 +247,12 @@ h3 {
     }
 
     .personal-photo {
-        width: 200px;
-        height: 200px;
+        display: block;
         margin: 10px;
+        width: 200px;
+        border: 1px solid #C1C0B9;
+        border-radius: 8px;
+        box-shadow: 1px 1px #C1C0B9;
     }
 
     .text-block {
@@ -281,6 +280,23 @@ h3 {
 
     section {
         position: relative;
+    }
+
+    .info-container {
+        margin: 50px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        max-width: 1000px;
+        padding: 10px 20px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #C1C0B9;
+        box-shadow: 5px 5px #C1C0B9;
     }
 
     .portfolio-content {
@@ -328,7 +344,6 @@ h3 {
 
     .personal-photo {
         width: 300px;
-        height: 300px;
     }
 
     .homepage {
