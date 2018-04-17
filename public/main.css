@@ -135,7 +135,7 @@ h3 {
     width: 90%;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+    margin: 25px auto;
 }
 
 .email-address {
@@ -175,12 +175,7 @@ h3 {
 
 .logo-image {
     width: 50px;
-}
-
-.contact-divider {
-    font-size: 100px;
-    font-weight: lighter;
-    color: #384956;
+    margin: 5px;
 }
 
 .contact {
