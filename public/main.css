@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    margin: auto;
+}
+
 nav {
     width: 100%;
     top: 0px;
@@ -17,7 +21,7 @@ nav {
 .nav {
     font-family: 'Lobster Two', Helvetica, sans-serif;
     position: relative;
-    top: -300px;
+    top: -250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,8 +30,8 @@ nav {
 }
 
 .background {
-    height: 300px;
-    width: 550px;
+    height: 250px;
+    width: 100%;
     background: url('./images/sam-lake-louise.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -86,7 +90,7 @@ p {
 h2 {
     color: #384956;
     text-align: center;
-    font-size: 56px;
+    font-size: 40px;
     font-family: 'Lobster Two', Helvetica, sans-serif;
     margin: 150px auto 100px auto;
     padding: 50px;
@@ -96,7 +100,7 @@ h3 {
     font-family: 'Lobster Two', Helvetica, sans-serif;
     color: #384956;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     margin: 15px;
     transition: color .5s ease;
 }
@@ -151,7 +155,7 @@ h3 {
     width: 90%;
     justify-content: space-around;
     align-items: center;
-    margin: 25px auto;
+    margin: 5px auto;
 }
 
 .email-address {
@@ -216,6 +220,14 @@ h3 {
     .name {
         font-size: 56px;
     }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -239,8 +251,8 @@ h3 {
     }
 
     .personal-photo {
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
         margin: 10px;
     }
 
@@ -257,6 +269,14 @@ h3 {
 
     .nav {
         top: -500px;
+    }
+
+    h2 {
+        font-size: 56px;
+    }
+
+    h3 {
+        font-size: 48px;
     }
 
     section {
@@ -306,6 +326,11 @@ h3 {
         align-items: center;
     }
 
+    .personal-photo {
+        width: 300px;
+        height: 300px;
+    }
+
     .homepage {
         top: -700px;
     }
@@ -316,6 +341,10 @@ h3 {
 
     .nav {
         top: -700px;
+    }
+
+    .contact-container {
+        margin: 25px auto;
     }
 
     .mobile {
