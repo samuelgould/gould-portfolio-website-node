@@ -43,7 +43,7 @@ a:focus {
     color: #537791;
 }
 
-img {
+.personal-photo {
     margin: 25px 0px;
     width: 90%;
     border: 1px solid #C1C0B9;
@@ -134,6 +134,7 @@ h3 {
     display: flex;
     width: 90%;
     justify-content: space-around;
+    align-items: center;
     margin: auto;
 }
 
@@ -163,6 +164,28 @@ h3 {
     font-size: 24px;
     color: #537791;
     font-weight: bold;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-image {
+    width: 50px;
+}
+
+.contact-divider {
+    font-size: 100px;
+    font-weight: lighter;
+    color: #384956;
+}
+
+.contact {
+    color: #384956;
+    font-weight: bolder;
 }
 
 .desktop {
@@ -201,7 +224,7 @@ h3 {
         font-weight: bolder;
     }
 
-    img {
+    .personal-photo {
         width: 400px;
         height: 400px;
         margin: 10px;
