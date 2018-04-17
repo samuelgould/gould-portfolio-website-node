@@ -21,7 +21,7 @@ nav {
 .name {
     font-size: 56px;
     font-weight: bold;
-    color: #537791;
+    color: #384956;
     margin-left: 10px;
 }
 
@@ -92,7 +92,7 @@ h3 {
 }
 
 .vertical-snapshot-container {
-    width: 70%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -187,18 +187,10 @@ h3 {
     display: none;
 }
 
-@media screen and (min-width: 925px) {
-    .mobile {
-        display: none;
-    }
-
-    .desktop {
-        display: block;
-    }
-
+@media screen and (min-width: 700px) {
     .background {
-        height: 700px;
-        width: 1200px;
+        height: 500px;
+        width: 950px;
         background: url('./images/sam-lake-louise.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
@@ -207,7 +199,7 @@ h3 {
 
     .homepage {
         position: relative;
-        top: -700px;
+        top: -500px;
     }
 
     .title {
@@ -225,13 +217,6 @@ h3 {
         margin: 10px;
     }
 
-    .vertical-snapshot-container {
-        width: 20%;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-    }
-
     .text-block {
         width: 80%;
     }
@@ -243,18 +228,10 @@ h3 {
         width: 40%;
     }
 
-    .titles-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 450px;
-    }
-
     .nav {
         font-family: 'Lobster Two', Helvetica, sans-serif;
         position: relative;
-        top: -700px;
+        top: -500px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -267,6 +244,7 @@ h3 {
 
     .portfolio-content {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 90%;
@@ -281,21 +259,50 @@ h3 {
 
     }
 
+    .more-info-container {
+        width: 200px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .background {
+        height: 700px;
+        width: 1200px;
+    }
+
+    .titles-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 450px;
+    }
+
+    .portfolio-content {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .homepage {
+        top: -700px;
+    }
+
     .portfolio-text {
         width: 55%;
     }
 
-    .congress {
-        margin-left: 25px;
+    .nav {
+        top: -700px;
     }
 
-    .congress-container {
-        flex-direction: row-reverse;
+    .mobile {
+        display: none;
     }
 
-    .more-info-container {
-        width: 200px;
-        margin-top: 15px;
+    .desktop-block {
+        display: block;
     }
 }
 
