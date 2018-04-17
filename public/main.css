@@ -15,11 +15,27 @@ nav {
 }
 
 .nav {
+    font-family: 'Lobster Two', Helvetica, sans-serif;
+    position: relative;
+    top: -300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 10px;
 }
 
+.background {
+    height: 300px;
+    width: 550px;
+    background: url('./images/sam-lake-louise.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(247,246,231,1), rgba(247,246,231,0));
+}
+
 .name {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: bold;
     color: #384956;
     margin-left: 10px;
@@ -187,14 +203,25 @@ h3 {
     display: none;
 }
 
+@media screen and (min-width: 500px) {
+    .background {
+        height: 400px;
+        width: 750px;
+    }
+
+    .nav {
+        top: -400px;
+    }
+
+    .name {
+        font-size: 56px;
+    }
+}
+
 @media screen and (min-width: 700px) {
     .background {
         height: 500px;
         width: 950px;
-        background: url('./images/sam-lake-louise.jpg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        -webkit-mask-image: -webkit-linear-gradient(top, rgba(247,246,231,1), rgba(247,246,231,0));
     }
 
     .homepage {
@@ -229,13 +256,7 @@ h3 {
     }
 
     .nav {
-        font-family: 'Lobster Two', Helvetica, sans-serif;
-        position: relative;
         top: -500px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
 
     section {
