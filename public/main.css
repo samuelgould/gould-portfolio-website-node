@@ -19,7 +19,7 @@ nav {
 }
 
 .name {
-    font-size: 36px;
+    font-size: 56px;
     font-weight: bold;
     color: #537791;
 }
@@ -34,7 +34,7 @@ a:focus {
 }
 
 .sub-heading {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .title {
@@ -211,10 +211,11 @@ h3 {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 400px;
+        width: 450px;
     }
 
     .nav {
+        font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
         position: relative;
         top: -700px;
         display: flex;
