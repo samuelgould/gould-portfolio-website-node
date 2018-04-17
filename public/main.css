@@ -84,7 +84,7 @@ h3 {
 }
 
 .snapshot-container {
-    width: 100%;
+    width: 400px;
     display: flex;
     justify-content: space-around;
 }
@@ -232,14 +232,23 @@ h3 {
     }
 
     .portfolio-content {
-        margin: 25 25 0 25;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        width: 90%;
+        max-width: 1000px;
+        padding: 10px 20px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 8px;
+        border: #ccc;
+        box-shadow: 5px 5px #ccc;
+
     }
 
     .portfolio-text {
-        width: 45%;
+        width: 55%;
     }
 
     .congress {
