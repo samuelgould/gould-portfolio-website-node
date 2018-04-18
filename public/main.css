@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    padding: 0 0 50px 0;
+    padding: 0;
     background-color: #E7E6E1;
     font-family: 'Roboto', sans-serif;
 }
@@ -141,7 +141,7 @@ h3 {
 
 .more-info-container {
     display: flex;
-    width: 60%;
+    width: 90%;
     justify-content: space-around;
     margin: 10px auto 25px auto;
 }
@@ -170,12 +170,12 @@ h3 {
     margin: 5px auto;
 }
 
-.email-address {
+.embedded-link {
     color: #537791;
-    transition: color .5s ease;
+    transition: color 1s ease;
 }
 
-.email-address:hover {
+.embedded-link:hover {
     color: #384956;
     font-weight: bold;
 }
@@ -183,12 +183,6 @@ h3 {
 .links {
     font-size: 24px;
     color: #384956;
-    font-weight: bold;
-}
-
-.divider {
-    font-size: 24px;
-    color: #537791;
     font-weight: bold;
 }
 
@@ -207,6 +201,13 @@ h3 {
 .contact {
     color: #384956;
     font-weight: bolder;
+}
+
+footer {
+    padding: 150px 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    color: #384956;
 }
 
 .desktop {
@@ -233,6 +234,10 @@ h3 {
 
     h3 {
         font-size: 40px;
+    }
+
+    .more-info-container {
+        width: 80%;
     }
 }
 
@@ -297,7 +302,7 @@ h3 {
     }
 
     .more-info-container {
-        width: 200px;
+        width: 60%;
         margin-top: 15px;
     }
 }
@@ -322,6 +327,10 @@ h3 {
         align-items: center;
     }
 
+    .snapshot-container {
+        width: 40%;
+    }
+
     .personal-photo {
         width: 300px;
     }
@@ -338,8 +347,13 @@ h3 {
         top: -700px;
     }
 
+    .more-info-container {
+        width: 100%;
+        margin-top: 15px;
+    }
+
     .contact-container {
-        margin: 25px auto;
+        margin: 25px auto 0px auto;
     }
 
     .mobile {
@@ -354,6 +368,10 @@ h3 {
 @media screen and (min-width: 1100px) {
     .titles-container {
         width: 500px;
+    }
+
+    .more-info-container {
+        width: 85%;
     }
 }
 
