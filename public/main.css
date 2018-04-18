@@ -93,8 +93,12 @@ h2 {
     text-align: center;
     font-size: 40px;
     font-family: 'Lobster Two', Helvetica, sans-serif;
-    margin: 150px auto 100px auto;
+    margin: 50px auto;
     padding: 50px;
+}
+
+.top-section-header {
+    margin: 0px auto 50px auto;
 }
 
 h3 {
