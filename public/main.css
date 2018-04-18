@@ -77,10 +77,15 @@ a:focus {
 
 p {
     margin: 0px 15px;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-size: 16px;
     text-align: left;
     color: #384956;
+}
+
+.tech-stack-text {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 h2 {
@@ -143,7 +148,7 @@ h3 {
     display: flex;
     width: 90%;
     justify-content: space-around;
-    margin: 10px auto 25px auto;
+    margin: 25px auto;
 }
 
 .info-container {
@@ -154,7 +159,7 @@ h3 {
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    padding: 10px 20px;
+    padding: 20px;
     background: #fff;
     margin: 50px auto;
     border-radius: 8px;
