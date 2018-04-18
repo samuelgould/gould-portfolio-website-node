@@ -93,12 +93,8 @@ h2 {
     text-align: center;
     font-size: 40px;
     font-family: 'Lobster Two', Helvetica, sans-serif;
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 50px;
-}
-
-.top-section-header {
-    margin: 0px auto 50px auto;
 }
 
 h3 {
@@ -117,9 +113,8 @@ h3 {
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    padding: 10px 20px;
     background: #fff;
-    margin: 100px auto;
+    margin: 25px auto;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #C1C0B9;
@@ -156,7 +151,7 @@ h3 {
 }
 
 .info-container {
-    margin: 50px auto;
+    margin: 25px auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -165,7 +160,6 @@ h3 {
     max-width: 1000px;
     padding: 20px;
     background: #fff;
-    margin: 50px auto;
     border-radius: 8px;
     border: 1px solid #C1C0B9;
     box-shadow: 5px 5px #C1C0B9;
@@ -223,6 +217,43 @@ footer {
     display: none;
 }
 
+.homepage-text {
+    margin: 25px auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #C1C0B9;
+    box-shadow: 5px 5px #C1C0B9;
+}
+
+.photo-block {
+    display: none;
+}
+
+.bio-text-block {
+    line-height: 2em;
+}
+
+/* General Text Emphasis Classes */
+
+.bigger {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.biggest {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.script-font {
+    font-family: 'Lobster Two', Helvetica, sans-serif;
+}
+
+
+
 @media screen and (min-width: 500px) {
     .background {
         height: 400px;
@@ -247,6 +278,10 @@ footer {
 
     .more-info-container {
         width: 80%;
+    }
+
+    .portfolio-content {
+        margin: 40px auto;
     }
 }
 
@@ -288,6 +323,11 @@ footer {
         top: 25px;
         left: 55px;
         width: 40%;
+        margin: 0px;
+        padding: 0px;
+        background: none;
+        border: none;
+        box-shadow: none;
     }
 
     .nav {
@@ -314,6 +354,10 @@ footer {
         width: 60%;
         margin-top: 15px;
     }
+
+    .about-section-block {
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 925px) {
@@ -334,6 +378,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        margin: 60px auto;
     }
 
     .snapshot-container {
@@ -371,6 +416,21 @@ footer {
 
     .desktop-block {
         display: block;
+    }
+
+    h2 {
+        margin: 50px auto;
+    }
+
+    .top-section-header {
+        margin: 0px auto 50px auto;
+    }
+
+    .photo-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
     }
 }
 
