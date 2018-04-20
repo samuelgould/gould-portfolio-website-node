@@ -14,8 +14,7 @@ section {
 }
 
 nav {
-    width: 100%;
-    top: 0px;
+    height: 0px;
 }
 
 .nav {
@@ -30,6 +29,8 @@ nav {
 }
 
 .background {
+    position: relative;
+    top: 0;
     height: 250px;
     width: 450px;
     background: url('./images/sam-lake-louise.jpg');
@@ -215,7 +216,7 @@ footer {
 }
 
 .homepage-text {
-    margin: 25px auto;
+    margin: 30px auto 25px auto;
     width: 90%;
     max-width: 1000px;
     padding: 20px;
@@ -379,7 +380,7 @@ footer {
 
     .homepage {
         position: relative;
-        top: -500px;
+        top: -425px;
     }
 
     .personal-photo {
@@ -439,6 +440,7 @@ footer {
 
 @media screen and (min-width: 925px) {
     .background {
+        top: -50px;
         height: 700px;
         width: 1200px;
     }
@@ -467,7 +469,7 @@ footer {
     }
 
     .homepage {
-        top: -700px;
+        top: -625px;
     }
 
     .portfolio-text {
@@ -475,7 +477,8 @@ footer {
     }
 
     .nav {
-        top: -700px;
+        top: -750px;
+        margin-left: 50px;
     }
 
     .more-info-container {
@@ -501,6 +504,7 @@ footer {
 
     .top-section-header {
         margin: 0px auto 50px auto;
+        padding-top: 25px; 
     }
 
     .photo-block {
@@ -514,7 +518,7 @@ footer {
         display: block;
         position: -webkit-sticky;
         position: sticky;
-        top: 10px;
+        top: 21px;
     }
 }
 
@@ -536,22 +540,19 @@ footer {
     .background {
         height: 933px;
         width: 1600px;
-        background: url('./images/sam-lake-louise.jpg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        -webkit-mask-image: -webkit-linear-gradient(top, rgba(247,246,231,1), rgba(247,246,231,0));
     }
 
     .nav {
-        top: -933px;
-        margin: 20px;
+        top: -983px;
+        margin: 20px 20px 20px 60px;
     }
 
     .homepage {
-        top: -875px;
+        top: -850px;
     }
 
     .desktop-hamburger {
+        top: 31px;
         left: 10px;
     }
 }
