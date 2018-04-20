@@ -241,7 +241,8 @@ footer {
     right: 10px;
     width: 48px;
     height: 42px;
-    padding: 10px 10px;
+    padding: 11px 11px 10px 11px;
+    margin-top: 2px;
     transition: background-color 1s ease;
     cursor: pointer;
 }
@@ -333,6 +334,10 @@ footer {
 
     .name {
         font-size: 56px;
+    }
+
+    .hamburger {
+        margin-top: 4px;
     }
 
     h2 {
