@@ -257,6 +257,10 @@ footer {
     margin-bottom: 5px;
 }
 
+.desktop-hamburger {
+    display: none;
+}
+
 .change .hamburger-top {
     transform: rotate(-45deg) translate(-4px, 8px);
 }
@@ -485,6 +489,14 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 350px;
+    }
+
+    .desktop-hamburger {
+        display: block;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 10px;
+        right: 100px;
     }
 }
 
