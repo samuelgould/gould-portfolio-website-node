@@ -21,7 +21,7 @@ nav {
 .nav {
     font-family: 'Lobster Two', Helvetica, sans-serif;
     position: relative;
-    top: -150px;
+    top: -250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,8 +30,8 @@ nav {
 }
 
 .background {
-    height: 150px;
-    width: 100%;
+    height: 250px;
+    width: 450px;
     background: url('./images/sam-lake-louise.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -321,13 +321,14 @@ footer {
     font-family: 'Lobster Two', Helvetica, sans-serif;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 425px) {
     .background {
-        height: 250px;
+        height: 350px;
+        width: 600px;
     }
 
     .nav {
-        top: -250px;
+        top: -350px;
     }
     
     .name {
