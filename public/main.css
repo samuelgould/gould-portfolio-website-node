@@ -29,6 +29,26 @@ nav {
     margin: 10px;
 }
 
+.hamburger {
+    width: 48px;
+    height: 42px;
+    border: 1px solid #C1C0B9;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #C1C0B9;
+    padding: 10px 10px;
+    transition: background-color 1s ease;
+}
+
+.hamburger:hover {
+    background-color: #F7F6E7;
+}
+
+.hamburger-stripe {
+    background-color: #537791;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
 .background {
     height: 250px;
     width: 100%;
