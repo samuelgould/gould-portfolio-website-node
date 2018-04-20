@@ -496,7 +496,6 @@ footer {
         position: -webkit-sticky;
         position: sticky;
         top: 10px;
-        right: 100px;
     }
 }
 
@@ -507,6 +506,10 @@ footer {
 
     .more-info-container {
         width: 85%;
+    }
+
+    .desktop-hamburger {
+        left: 5px;
     }
 }
 
@@ -527,6 +530,10 @@ footer {
 
     .homepage {
         top: -875px;
+    }
+
+    .desktop-hamburger {
+        left: 10px;
     }
 }
 
