@@ -31,6 +31,7 @@ nav {
 
 .hamburger {
     position: fixed;
+    z-index: 2;
     right: 10px;
     width: 48px;
     height: 42px;
@@ -79,6 +80,15 @@ a:focus {
 .title {
     font-weight: bold;
     color: #537791;
+}
+
+.title {
+    transition: color .5s ease;
+}
+
+.title:hover {
+    color: #384956;
+    font-weight: bolder;
 }
 
 .personal-photo {
@@ -245,6 +255,35 @@ footer {
     margin: 15px;
 }
 
+/* Navigation Overlay */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F7F6E7;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.block-navigation-link {
+    display: block;
+    font-size: 48px;
+    margin: 25px;
+}
+
 /* General Text Emphasis Classes */
 
 .bigger {
@@ -260,7 +299,6 @@ footer {
 .script-font {
     font-family: 'Lobster Two', Helvetica, sans-serif;
 }
-
 
 
 @media screen and (min-width: 550px) {
@@ -303,15 +341,6 @@ footer {
     .homepage {
         position: relative;
         top: -500px;
-    }
-
-    .title {
-        transition: color .5s ease;
-    }
-
-    .title:hover {
-        color: #384956;
-        font-weight: bolder;
     }
 
     .personal-photo {
