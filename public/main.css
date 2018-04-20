@@ -30,13 +30,13 @@ nav {
 }
 
 .hamburger {
+    position: fixed;
+    right: 10px;
     width: 48px;
     height: 42px;
-    border: 1px solid #C1C0B9;
-    border-radius: 2px;
-    box-shadow: 0 0 2px #C1C0B9;
     padding: 10px 10px;
     transition: background-color 1s ease;
+    cursor: pointer;
 }
 
 .hamburger:hover {
@@ -59,9 +59,7 @@ nav {
 }
 
 .name {
-    font-size: 48px;
-    font-weight: bold;
-    color: #384956;
+    font-size: 40px;
     margin-left: 10px;
 }
 
