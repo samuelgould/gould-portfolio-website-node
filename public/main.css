@@ -29,27 +29,6 @@ nav {
     margin: 10px;
 }
 
-.hamburger {
-    position: fixed;
-    z-index: 2;
-    right: 10px;
-    width: 48px;
-    height: 42px;
-    padding: 10px 10px;
-    transition: background-color 1s ease;
-    cursor: pointer;
-}
-
-.hamburger:hover {
-    background-color: #F7F6E7;
-}
-
-.hamburger-stripe {
-    background-color: #537791;
-    height: 3px;
-    margin-bottom: 5px;
-}
-
 .background {
     height: 250px;
     width: 100%;
@@ -256,10 +235,43 @@ footer {
 }
 
 /* Navigation Overlay */
+.hamburger {
+    position: fixed;
+    z-index: 2;
+    right: 10px;
+    width: 48px;
+    height: 42px;
+    padding: 10px 10px;
+    transition: background-color 1s ease;
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    background-color: #F7F6E7;
+    opacity: 0.9;
+}
+
+.hamburger-stripe {
+    background-color: #537791;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+.change .hamburger-top {
+    transform: rotate(-45deg) translate(-4px, 8px);
+}
+
+.change .hamburger-middle {
+    opacity: 0;
+}
+
+.change .hamburger-bottom {
+    transform: rotate(45deg) translate(-3px, -8px);
+}
 
 .overlay {
     height: 100%;
-    width: 100%;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -268,6 +280,10 @@ footer {
     opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
+}
+
+.show-overlay {
+    width: 100%;
 }
 
 .overlay-content {

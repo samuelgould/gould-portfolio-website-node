@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <script src="./index.js" defer></script>
     <title>Sam Gould's Portfolio</title>
 </head>
 <body>
@@ -32,17 +33,17 @@
                     Contact
                 </a>
             </div>
-            <div class="hamburger mobile">
-                <div class="hamburger-stripe"></div>
-                <div class="hamburger-stripe"></div>
-                <div class="hamburger-stripe"></div>
+            <div class="hamburger mobile" id='hamburger-icon' onClick="toggleHamburger()">
+                <div class="hamburger-stripe hamburger-top"></div>
+                <div class="hamburger-stripe hamburger-middle"></div>
+                <div class="hamburger-stripe hamburger-bottom"></div>
             </div>
-            <div class='overlay'>
+            <div class='overlay' id='nav-overlay'>
                 <div class="overlay-content">
-                    <a href="#home" class="sub-heading title block-navigation-link">Home</a>
-                    <a href="#portfolio" class="sub-heading title block-navigation-link">Portfolio</a>
-                    <a href="#about" class="sub-heading title block-navigation-link">About</a>
-                    <a href="#contact" class="sub-heading title block-navigation-link">Contact</a>
+                    <a href="#home" class="sub-heading title block-navigation-link" onClick="toggleHamburger()">Home</a>
+                    <a href="#portfolio" class="sub-heading title block-navigation-link" onClick="toggleHamburger()">Portfolio</a>
+                    <a href="#about" class="sub-heading title block-navigation-link" onClick="toggleHamburger()">About</a>
+                    <a href="#contact" class="sub-heading title block-navigation-link" onClick="toggleHamburger()">Contact</a>
                 </div>
             </div>
         </div>
