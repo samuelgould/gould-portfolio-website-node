@@ -387,6 +387,12 @@ footer {
         top: -425px;
     }
 
+
+    .top-section-header {
+        margin: 0px auto 50px auto;
+        padding-top: 25px; 
+    }
+
     .personal-photo {
         display: block;
         margin: 10px;
@@ -448,6 +454,10 @@ footer {
         width: 1200px;
     }
 
+    .homepage-text-block {
+        top: -75px;
+    }
+
     .titles-container {
         display: flex;
         flex-direction: row;
@@ -503,11 +513,6 @@ footer {
 
     h2 {
         margin: 50px auto;
-    }
-
-    .top-section-header {
-        margin: 0px auto 50px auto;
-        padding-top: 25px; 
     }
 
     .photo-block {
