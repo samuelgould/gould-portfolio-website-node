@@ -215,7 +215,7 @@ footer {
     display: none;
 }
 
-.homepage-text {
+.homepage-text-block {
     margin: 30px auto 25px auto;
     width: 90%;
     max-width: 1000px;
@@ -224,6 +224,10 @@ footer {
     border-radius: 8px;
     border: 1px solid #C1C0B9;
     box-shadow: 5px 5px #C1C0B9;
+}
+
+.homepage-text {
+    margin: 10px;
 }
 
 .photo-block {
@@ -396,7 +400,7 @@ footer {
         width: 80%;
     }
 
-    .homepage-text {
+    .homepage-text-block {
         position: absolute;
         top: 25px;
         left: 55px;
