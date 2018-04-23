@@ -7,6 +7,8 @@ body {
     padding: 0;
     background-color: #E7E6E1;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 section {
