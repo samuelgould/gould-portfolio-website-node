@@ -167,7 +167,7 @@ h3 {
 
 .contact-container {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     margin: 5px auto;
@@ -340,6 +340,10 @@ footer {
     
     .name {
         font-size: 40px;
+    }
+
+    .contact-container {
+        width: 90%;
     }
 }
 
