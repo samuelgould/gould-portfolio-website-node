@@ -127,8 +127,7 @@ h3 {
     margin: 25px auto;
     padding: 20px;
     border-radius: 8px;
-    border: 1px solid #C1C0B9;
-    box-shadow: 5px 5px #C1C0B9;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 20px rgba(0, 0, 0, 0.24);
 }
 
 .snapshot-container {
@@ -161,8 +160,7 @@ h3 {
     padding: 20px;
     background: #fff;
     border-radius: 8px;
-    border: 1px solid #C1C0B9;
-    box-shadow: 5px 5px #C1C0B9;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 20px rgba(0, 0, 0, 0.24);
 }
 
 .contact-container {
@@ -225,8 +223,7 @@ footer {
     padding: 20px;
     background: #fff;
     border-radius: 8px;
-    border: 1px solid #C1C0B9;
-    box-shadow: 5px 5px #C1C0B9;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 20px rgba(0, 0, 0, 0.24);
 }
 
 .homepage-text {
@@ -405,9 +402,8 @@ footer {
         display: block;
         margin: 10px;
         width: 200px;
-        border: 1px solid #C1C0B9;
         border-radius: 8px;
-        box-shadow: 1px 1px #C1C0B9;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 20px rgba(0, 0, 0, 0.24);
     }
 
     .text-block {
