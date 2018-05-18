@@ -35,6 +35,7 @@ nav {
     top: 0;
     height: 250px;
     width: 450px;
+    max-width: 100%;
     background: url('./images/sam-lake-louise.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -312,6 +313,10 @@ footer {
 }
 
 /* General Text Emphasis Classes */
+
+.bold {
+    font-weight: bold;
+}
 
 .bigger {
     font-size: 24px;
