@@ -1,6 +1,6 @@
 {
   "name": "gould-portfolio-website",
-  "description": "Samuel J. Gould Portfolio Website",
+  "description": "Sam Gould 200C Website",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
@@ -8,9 +8,9 @@
   },
   "author": "Sam Gould <sjg326@gmail.com>",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
