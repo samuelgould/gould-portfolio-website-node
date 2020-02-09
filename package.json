@@ -3,7 +3,7 @@
   "description": "Sam Gould 200C Website",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "heroku": "node server.js"
   },
   "author": "Sam Gould <sjg326@gmail.com>",
